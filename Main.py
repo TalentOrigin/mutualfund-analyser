@@ -19,5 +19,3 @@ if __name__ == '__main__':
 	data = CreateDataFrameFromCSV('/Users/talentorigin/workspace/datasets/mutualfunds/sample/')
 	dataframe = data.getDataFrame()
 	print(dataframe.head(10))
-	print(dataframe.columns)
-	print(dataframe.shape)
